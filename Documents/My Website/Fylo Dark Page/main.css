@@ -1,0 +1,302 @@
+
+html{
+    scroll-behavior: smooth ;
+}
+body{
+ 
+ color: white;
+ background: url("C:/Users/HP/Documents/My Website/Fylo Dark Page/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg") no-repeat center,  hsl(218, 28%, 13%);
+
+}
+.navbar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.hero h3{
+    margin-top: 50px;
+
+}
+.hero p{
+    margin-top: 30px;
+}
+#requestInviteButton{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 1s;
+    width:200px;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(53, 203, 248), rgb(11, 90, 165));
+    
+}
+#requestInviteButton:hover{
+    background-image: linear-gradient(to right, rgb(46, 110, 248), rgb(7, 53, 97));
+}
+.illustration{
+    margin-top: 70px; 
+    
+}
+.illustration-info{
+    margin:40px 20px;
+    font-size:20px;
+}
+.stay-productive{
+    margin-top: 80px;
+}
+.stay-productive-info h2{
+    font-size:40px;
+}
+.stay-productive-info{
+    position: relative;
+    margin-top: 100px;
+    font-size:20px;
+    padding-left:50px;
+}
+.stay-productive-info p{
+    font-size:15px;
+}
+.testimonials{
+    margin-top:80px;
+}
+.box{
+    padding: 18px;
+    
+    width: 350px;
+    height: 250px;
+    border: 1px solid  hsl(219, 30%, 18%);
+    border-radius: 4px;
+    background-color: hsl(219, 30%, 18%);
+}
+.box p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.testimonial-img{
+    width: 30px;
+    height:30px;
+
+}
+.profile{
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+}
+
+.profile h5{
+
+    font-size:12px;
+    margin-bottom: 2px;
+
+}
+.profile p{
+    font-size:10px;
+    margin-top: 0px;
+}
+.get-access-info{
+    padding: 18px;
+    overflow: visible;
+   
+    
+    border: 1px solid  hsl(219, 30%, 18%);
+    border-radius: 4px;
+    background-color: hsl(219, 30%, 18%);
+    position: relative;
+    top: 100px;
+    height: 234px;
+    width: 1000px;
+    margin: 0px auto 0px;
+    
+    
+}
+
+
+.get-access-info li{
+    display: inline-block;
+}
+.form-control{
+    border-radius: 50px;
+    width: 400px;
+}
+#sendMessageButton{
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+    padding: 8px 8px;
+    font-size: 13px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    background-color: rgb(109, 176, 221);
+    width:150px;
+    color: #fff;
+    
+}
+#sendMessageButton:hover{
+    background-color: rgb(41, 69, 196);
+
+}
+.footer{
+    background-color: rgba(8, 1, 37, 0.959);
+    
+}
+
+.footer-ads{
+    padding-top: 200px;
+}
+.logo-info p{
+    margin-top: 30px;
+
+}
+.mobile{
+     width: 28px;
+    position: relative;
+    top: 20px;
+
+}
+.mobile a{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 35px;
+    bottom:20px;
+    
+}
+.email a{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+
+}
+
+.email {
+  width: 28px;
+    position: relative;
+    top: 60px;
+    right: 0px;  
+}
+.social{
+    color: white;
+    font-size: 25px;
+    margin: 0px 2px;
+    transition: 0.7s;
+}
+.social:hover{
+    color: black;
+}
+
+@media screen and (max-width: 375px){
+    .hero img{
+        width:400px;
+    }
+    .stay-productive img{
+        width:400px;
+    }
+    .box{
+        height: 250px;
+        margin: auto 40px auto auto;
+        margin-bottom: 40px;
+        right: 50px;
+    }
+    .get-access-info{
+        padding: 18px;
+        overflow: visible;      
+        position: relative;
+        top: 150px;
+        height: 300px;
+        width: 400px;
+        margin: 0px auto 0px;
+        
+        
+    }
+    .form-control{
+        border-radius: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    #sendMessageButton{
+        width: 300px;
+    }
+    .footer-ads{
+        padding-top: 230px;
+    }
+    .about-ads{
+        margin-top: 70px;
+    }
+    .about p{
+        margin-top: 14px;
+    }
+    .terms{
+        margin-top: 30px;
+    }
+    .contact p{
+        margin-top: 14px;
+    }
+    .socials{
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .hero img{
+        width:400px;
+    }
+    .stay-productive img{
+        width:400px;
+    }
+    .box{
+        height: 250px;
+        margin: auto 40px auto auto;
+        margin-bottom: 40px;
+        right: 50px;
+    }
+    .get-access-info{
+        padding: 18px;
+        overflow: visible;      
+        position: relative;
+        top: 150px;
+        height: 300px;
+        width: 400px;
+        margin: 0px auto 0px;
+        
+        
+    }
+    .form-control{
+        border-radius: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    #sendMessageButton{
+        width: 300px;
+    }
+    .footer-ads{
+        padding-top: 230px;
+    }
+    .about-ads{
+        margin-top: 70px;
+    }
+    .about p{
+        margin-top: 14px;
+    }
+    .terms{
+        margin-top: 30px;
+    }
+    .contact p{
+        margin-top: 14px;
+    }
+    .socials{
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        
+    }
+}
